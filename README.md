@@ -46,8 +46,15 @@ The easy way to host this bot, deploy to Heroku, (it will help to make the bot s
 
 
 
-# Credits 
+# Credits 💖
 
-[SOMYAJEET](https://t.me/Somyajeet_Mishra)
-[NARUTO](https://t.me/Naruto123777)
-[ABHISHEK](https://t.me/Itz_Abhishek_xD)
+- [SOMYAJEET](https://t.me/Somyajeet_Mishra)
+
+- [NARUTO](https://t.me/Naruto123777)
+
+- [ABHISHEK](https://t.me/Itz_Abhishek_xD)
+
+
+## Support & Updates 🎑
+
+<a href="https://t.me/teamDlt"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/teamDlt_update"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
