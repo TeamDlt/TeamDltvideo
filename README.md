@@ -1,6 +1,6 @@
 # TeamDltvideo
 TeamDltvideo Bot you can add in your Telegram Group Thanks 
-<p align="center"><a href="https://te.legra.ph/file/4dc2f69d8b318a53d5735.jpg"><img src="https://github.com/TeamDlt/TeamDltvideo/raw/main/driver/veezlogo.png"></a></p>
+<p align="center"><a href="https://t.me/Somyajeet_Mishra"><img src="https://github.com/TeamDlt/TeamDltvideo/raw/main/driver/veezlogo.png"></a></p>
 <p align="center">
     <br><b>Video Stream is a telegram bot project that's allow you to play video on telegram group video chat</b><br>
 </p>
