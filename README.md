@@ -45,9 +45,6 @@ The easy way to host this bot, deploy to Heroku, (it will help to make the bot s
 
 - [SOMYAJEET](https://t.me/Somyajeet_Mishra)
 
-- [NARUTO](https://t.me/Naruto123777)
-
-- [ABHISHEK](https://t.me/Itz_Abhishek_xD)
 
 
 ## Support & Updates 🎑
