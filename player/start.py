@@ -19,7 +19,7 @@ async def start(client, message):
                 InlineKeyboardButton("Dᴇᴠꜱ", callback_data="devs"),
             ],
             [
-               InlineKeyboardButton("Sᴜᴍᴍᴏɴ Mᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+               InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ɪɴ ᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
             ]
    reply_markup = InlineKeyboardMarkup(buttons)
@@ -29,7 +29,7 @@ async def start(client, message):
           reply_markup=reply_markup
        )
    else:
-      await message.reply(f"**@{ASSISTANT_NAME} is Alive! ✨**")
+      await message.reply(f"**@{ASSISTANT_NAME} is Alive! 🤟🏻**")
 
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
@@ -68,16 +68,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="devs":
         buttons = [
             [
-                InlineKeyboardButton("Lᴏᴜɪꜱ", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton("Eʀʀᴏʀ", url="https://t.me/ProErrorXD"),
-            ],
-            [
-                InlineKeyboardButton("Bʟᴀᴢᴇ", url="https://t.me/piroXpower"),
-                InlineKeyboardButton("Pʀɪɴᴄᴇ", url="https://t.me/DEVILDAD_PRINCE"),
-            ],
-            [
-                InlineKeyboardButton("Hʏᴏᴋᴀ", url="https://t.me/Pratheek_XD"),
-                InlineKeyboardButton("Zᴀʟɪᴍ", url="https://t.me/Jalim_Munda"),
+                InlineKeyboardButton("Sᴏᴍʏᴀᴊᴇᴇᴛ 🎖", url="https://t.me/somyajeet_mishra"),
+                InlineKeyboardButton("❛𝗠𝗥 • 𝗦𝗺𝗮𝗿𝘁𝘆⃝🖤", url="https://t.me/mr_smarty_xd"),
             ],
             [
                 InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start"),
@@ -106,7 +98,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("Dᴇᴠꜱ", callback_data="devs"),
             ],
             [
-               InlineKeyboardButton("Sᴜᴍᴍᴏɴ Mᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+               InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ɪɴ ᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
