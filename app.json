@@ -1,15 +1,15 @@
 {
-    "name": "VC Video Player",
-    "description": "A VCVideoPlayer Bot for Telegram made with 💞 By @DeeCodeBots",
-    "logo": "https://telegra.ph/file/e1be1a6fcb7f0e37c297f.jpg",
+    "name": "TeamDltvideo",
+    "description": "A Stream Bot for Telegram",
+    "logo": "https://te.legra.ph/file/fb35577fb0098e0ea14c3.jpg",
     "keywords": [
         "pytgcalls",
         "Telegram Bot",
         "Vidio Vc Steramer"
     ],
-    "website": "https://t.me/DeeCodeBots",
-    "repository": "https://github.com/TeamDeeCode/VcVideoPlayer",
-    "success_url": "https://t.me/DeeCodeBots",
+    "website": "https://t.me/teamdlt",
+    "repository": "https://github.com/TeamDlt/TeamDltvideo",
+    "success_url": "https://t.me/teamdlt",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -46,22 +46,22 @@
         "SUPPORT_GROUP": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "decodeSupport"
+            "value": "teamdlt"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "DeecodeBots"
+            "value": "teamdlt_update"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "piroXpower"
+            "value": "Somyajeet_Mishra"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "VideoPlayer"
+            "value": "TeamDlt"
         }
     },
     "addons": [],
