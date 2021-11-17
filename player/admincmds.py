@@ -59,13 +59,13 @@ async def skip(client, m: Message):
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await m.reply("❌ nothing is currently playing")
+            await m.reply("❌ 𝗻𝗼𝘁𝗵𝗶𝗻𝗴 𝗶𝘀 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗽𝗹𝗮𝘆𝗶𝗻𝗴")
         elif op == 1:
-            await m.reply("✅ __Queues__ is empty.\n\n• userbot leaving voice chat")
+            await m.reply("✅ 𝗤𝘂𝗲𝘂𝗲𝘀 is empty.\n\n• 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𝗹𝗲𝗮𝘃𝗶𝗻𝗴 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁")
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
-                caption=f"✅ **𝗦𝗸𝗶𝗽𝗽𝗲𝗱 𝘁𝗼 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝘁𝗿𝗮𝗰𝗸.**\n\n🏷 **Name:** [{op[0]}]({op[1]})\n💭 **𝗖𝗵𝗮𝘁:** `{chat_id}`\n💡 **𝗦𝘁𝗮𝘁𝘂𝘀:** `𝗣𝗹𝗮𝘆𝗶𝗻𝗴`\n🎧 **𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗯𝘆:** {m.from_user.mention()}",
+                caption=f"✅ **𝗦𝗸𝗶𝗽𝗽𝗲𝗱 𝘁𝗼 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝘁𝗿𝗮𝗰𝗸.**\n\n🏷 **𝗡𝗮𝗺𝗲:** [{op[0]}]({op[1]})\n💭 **𝗖𝗵𝗮𝘁:** `{chat_id}`\n💡 **𝗦𝘁𝗮𝘁𝘂𝘀:** `𝗣𝗹𝗮𝘆𝗶𝗻𝗴`\n🎧 **𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗯𝘆:** {m.from_user.mention()}",
                 reply_markup=keyboard,
             )
     else:
@@ -168,7 +168,7 @@ async def unmute(client, m: Message):
         try:
             await call_py.unmute_stream(chat_id)
             await m.reply(
-                "🔊 **Userbot unmuted.**\n\n• **To mute the userbot, use the**\n» /mute command."
+                "🔊 **𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𝘂𝗻𝗺𝘂𝘁𝗲𝗱.**\n\n• **𝗧𝗼 𝗺𝘂𝘁𝗲 𝘁𝗵𝗲 𝘂𝘀𝗲𝗿𝗯𝗼𝘁, 𝘂𝘀𝗲 𝘁𝗵𝗲**\n» /mute 𝗰𝗼𝗺𝗺𝗮𝗻𝗱."
             )
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
@@ -191,7 +191,7 @@ async def cbpause(_, query: CallbackQuery):
         except Exception as e:
             await query.edit_message_text(f"🚫 **error:**\n\n`{e}`", reply_markup=bcl)
     else:
-        await query.edit_message_text("❌ **nothing in streaming**", reply_markup=bcl)
+        await query.edit_message_text("❌ **𝗻𝗼𝘁𝗵𝗶𝗻𝗴 𝗶𝗻 𝘀𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴**", reply_markup=bcl)
 
 
 @Client.on_callback_query(filters.regex("cbresume"))
@@ -222,11 +222,11 @@ async def cbstop(_, query: CallbackQuery):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await query.edit_message_text("✅ **streaming has ended**", reply_markup=bcl)
+            await query.edit_message_text("✅ **𝘀𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 𝗵𝗮𝘀 𝗲𝗻𝗱𝗲𝗱**", reply_markup=bcl)
         except Exception as e:
             await query.edit_message_text(f"🚫 **error:**\n\n`{e}`", reply_markup=bcl)
     else:
-        await query.edit_message_text("❌ **NOTHING IS STREAMING**", reply_markup=bcl)
+        await query.edit_message_text("❌ **𝗻𝗼𝘁𝗵𝗶𝗻𝗴 𝗶𝗻 𝘀𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴**", reply_markup=bcl)
 
 
 @Client.on_callback_query(filters.regex("cbmute"))
