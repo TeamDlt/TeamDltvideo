@@ -49,7 +49,7 @@ The easy way to host this bot, deploy to Heroku, (it will help to make the bot s
 
 # Credits 💖
 
-- [SOMYAJEET](https://t.me/Somyajeet_Mishra)
+- [❛𝗠𝗥 • 𝗦𝗺𝗮𝗿𝘁𝘆⃝🖤](https://t.me/MR_SMARTY_XD)
 
 
 
