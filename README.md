@@ -1,6 +1,12 @@
 # TeamDltvideo
 TeamDltvideo Bot you can add in your Telegram Group Thanks 
 
+<p align="center">
+  <img src="https://te.legra.ph/file/fb35577fb0098e0ea14c3.jpg">
+</p>
+
+
+
 # Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, (it will help to make the bot stable).
 
